@@ -38,8 +38,7 @@ var (
 
 // rootCmd represents the base command when called without any subcommands.
 var rootCmd = &cobra.Command{
-	Use:   "s3bc",
-	Short: "",
+	Use: "s3backupcleaner",
 }
 
 // cleanCmd represents the clean command which contain the logic of deletion the old backups from S3 API like storage's.
